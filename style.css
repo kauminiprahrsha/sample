@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page1{
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.page1 .section1{
+    width: 50%;
+    height:100vh;
+    background-image: url(assets/bg1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover
+
+}
+.page1 .section2{
+
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#p3{
+    color: brown;
+    font-size: 45px;
+}
+#button{
+    border: 2px solid black; 
+    padding: 15px 40px;
+    background-color: rgb(226, 187, 140);
+
+}
+#button:hover{
+    background-color: rgb(251, 172, 146);
+}
+.page2{
+    background-color: rgb(246, 170, 145);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*-------------page 1 mobile reponsive-------*/
+/* @media screen and  (max width:600px){} */
+    
+.page2a{
+    width: 80%;
+    height: 70%;
+    
+}
+.page2b{
+     width: 10%;
+     height: 5%;
+     
+}
+#p4{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+}
+#p5{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p6{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button2{
+    border: 4px solid black;
+    padding: 25px 60px;
+    font-size: 1rem;
+    background-color: rgb(250, 180, 155);
+    justify-content: center;
+    justify-items: center;
+    width: 60px;
+    height: 15px;
+    text-decoration: none;
+   
+
+}
+#button2:hover{
+    background-color: bisque;
+}
+.page3{
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.section3{
+    width: 33.3%;
+    height:90%;
+    margin: 20px;
+    padding: 10px 5px;
+}
+.section3a{
+    background-image: url(assets/img1.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+}
+
+
+.section3b{
+   background-image: url(assets/bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+
+.section3c{
+    background-image: url(assets/img2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 100%;
+}
+.page4{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+
+}
+.section4a{
+    background-image: url(assets/img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    height:100vh;
+}
+.section4b{
+    width: 10vw;
+    height: 100vh;
+    padding: 100px 200px;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: antiquewhite;
+
+}
+.section5{
+    width: 33.3%;
+    height: 60%;
+    align-items: center;  
+    margin:50px; 
+    border: 2px solid black ;
+    justify-content:center;
+    margin-top: 150px;
+    margin-bottom:650px;
+    padding: 20px;
+}
+.page6{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(205, 201, 150);
+}
+.section6a{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section6b{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 240, 219);
+     justify-content: space-around; 
+
+}
+.section6b1{
+    align-items: center;
+    justify-content: center;
+}
+.section6b2{
+    align-items: center;
+    justify-content: center;
+}
+.section6b3{
+    /* border: 2px solid black; */
+
+}
+
